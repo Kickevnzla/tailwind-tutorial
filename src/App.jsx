@@ -5,6 +5,7 @@ import {
   Rockets,
   Testimonials,
   Contact,
+  Footer,
 } from './components';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Testimonials />
       <Separator />
       <Contact />
+      <Footer />
     </div>
   );
 };
